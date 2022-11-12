@@ -18,3 +18,22 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.country-list li {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+.country-list li p {
+  margin: 0;
+}
+.country-list li img {
+  vertical-align: sub;
+  display: inline-block;
+  margin-right: 10px;
+}
